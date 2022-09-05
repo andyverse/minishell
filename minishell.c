@@ -6,45 +6,13 @@
 /*   By: fnochiza <fnochiza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/11 19:19:06 by fnochiza          #+#    #+#             */
-/*   Updated: 2022/08/27 17:21:33 by fnochiza         ###   ########.fr       */
+/*   Updated: 2022/09/05 15:10:47 by fnochiza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "minishell.h"
 
 void	parsing(char *cmd);
-// {
-// 	char	**arr;
-// 	char	*str;
-// 	int		size;
-// 	int		i;
-// 	int		j;
-
-// 	arr = init_var(&i, &j, &size);
-// 	str = NULL;
-// 	while (i < ft_strlen(cmd))
-// 	{
-// 		printf("HEY\n");
-// 		str = ft_realloc(str, (ft_strlen(str) + 1));
-// 		if (ft_strchr(" \"\'", cmd[i]) == NULL)
-// 			str[j] = cmd[i];
-// 		else if (cmd[i] == ' ')
-// 			str = new_arg(arr, str, i, &size);
-// 		else if (cmd[i] == '\'')
-// 			sngl_quot(arr, str, i);
-// 		else if (cmd[i] == '\"')
-// 			dbl_quot(arr, str, i);
-// 		inc_vars(&i, &j, str, cmd[i]);
-// 		//i++;
-// 	}
-// 	i = 0;
-// 	printf("%d, %s\n", size, arr[0]);
-// 	while (i < size)
-// 	{
-// 		printf("%s\n", arr[i]);
-// 		i++;
-// 	}
-// }
 
 char	*ft_readline(char *prompt)
 {
